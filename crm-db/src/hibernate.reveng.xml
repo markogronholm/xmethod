@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+  <table-filter match-name="club"/>
+  <table-filter match-name="club_address"/>
+  <table-filter match-name="club_contact_information"/>
+  <table-filter match-name="codebook"/>
+  <table-filter match-name="endurance"/>
+  <table-filter match-name="fitness"/>
+  <table-filter match-name="period"/>
+  <table-filter match-name="period_card"/>
+  <table-filter match-name="period_card_program"/>
+  <table-filter match-name="period_event"/>
+  <table-filter match-name="period_training_program"/>
+  <table-filter match-name="person"/>
+  <table-filter match-name="person_address"/>
+  <table-filter match-name="person_email"/>
+  <table-filter match-name="person_identification"/>
+  <table-filter match-name="person_name"/>
+  <table-filter match-name="person_phone"/>
+  <table-filter match-name="personal_trainer_client"/>
+  <table-filter match-name="personal_trainer_club"/>
+  <table-filter match-name="power"/>
+  <table-filter match-name="training_program"/>
+  <table-filter match-name="training_program_sequence"/>
+  <table-filter match-name="workout"/>
+  <table-filter match-name="workout_card"/>
+</hibernate-reverse-engineering>
