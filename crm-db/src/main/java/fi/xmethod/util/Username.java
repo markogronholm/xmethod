@@ -6,7 +6,7 @@ import javax.persistence.Embeddable;
 public class Username extends SecureString {
 	protected static final String pattern = "[\\w_\\d]+";
 	
-	//private String username;
+	private String username;
 	
 	public Username() {
 		super();
@@ -15,7 +15,7 @@ public class Username extends SecureString {
 	public Username(String username) {
 		super(username, pattern);
 	}
-	/*
+	
 	public String getUsername() {
 		return username;
 	}
@@ -23,5 +23,5 @@ public class Username extends SecureString {
 	public void setUsername(String username) {
 		this.setValue(username);
 	}
-	*/
+	
 }
